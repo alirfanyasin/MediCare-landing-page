@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg" id="main">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Medi<span>Care</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link mx-3 active" aria-current="page" href="#main"
+              >Home</a
+            >
+            <a class="nav-link mx-3" href="#services">Services</a>
+            <a class="nav-link mx-3" href="#feature">Feature</a>
+            <a class="nav-link mx-3" href="#gallery">Gallery</a>
+            <a class="nav-link mx-3" href="#about-us">About us</a>
+          </div>
+          <div class="me-auto"></div>
+          <a href="#contact" class="btn btn-outline-light px-4">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Jumbotron start -->
+    <div class="jumbotron d-flex align-items-center">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 text-white">
+            <h1 class="fw-bold">
+              This is Your <br />Year to <span>Smile</span>
+            </h1>
+            <p class="fw-light mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius
+              adipisci quibusdam reiciendis aliquid temporibus iure, labore
+              iusto. Qui quibusdam ipsum impedit voluptatum, reiciendis neque
+              magni dolor laborum voluptate natus!
+            </p>
+            <a href="" class="btn btn-custom px-3 py-2 rounded-lg text-white"
+              >View Collection</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="img/img-jumbotron.png" alt="img-jumbotron" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron end -->
+
+    <!-- About us start -->
+    <div class="about-us" id="about-us">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <img src="img/img-about-us.png" alt="img-about-us" width="100%" />
+          </div>
+          <div class="col-md-6">
+            <header>
+              <h4 class="fw-normal">About us</h4>
+            </header>
+            <h2 class="fw-bold">
+              We’re Always Ensure <br />
+              Medical Treatment
+            </h2>
+            <p class="text-custom">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae porro perferendis maxime atque magni exercitationem
+              repudiandae officiis, dolores possimus qui, blanditiis alias ea
+              doloribus ipsa, deleniti sequi ut eligendi. Reprehenderit!
+            </p>
+
+            <a href="" class="btn btn-custom px-3 py-2 rounded-lg text-white"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About us end -->
+
+    <!-- Some number start -->
+    <div class="some-number">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="fw-bold fs-1">Some Number</h3>
+            <p class="text-custom">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas
+              commodi a ducimus suscipit nulla.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h3 class="fw-bold fs-1">42%</h3>
+            <div class="fw-semibold fs-5">Healt</div>
+            <p class="text-custom">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="col-md-2">
+            <h3 class="fw-bold fs-1">73+</h3>
+            <div class="fw-semibold fs-5">Promotion</div>
+            <p class="text-custom">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="col-md-2">
+            <h3 class="fw-bold fs-1">33+</h3>
+            <div class="fw-semibold fs-5">Consultation</div>
+            <p class="text-custom">Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Some number end -->
+
+    <!-- Feature start -->
+    <div class="feature" id="feature">
+      <div class="container">
+        <header class="text-center">
+          <h4 class="fw-normal">Feature</h4>
+          <h3 class="fw-bold fs-1">Our Feature</h3>
+        </header>
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <div
+                class="card-top rounded-4 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="img/icon/icon-medis-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body p-5">
+                <h3 class="fw-bold">Better Care</h3>
+                <p class="card-text text-custom">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <div
+                class="card-top rounded-4 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="img/icon/icon-medis-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body p-5">
+                <h3 class="fw-bold">Communication</h3>
+                <p class="card-text text-custom">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <div
+                class="card-top rounded-4 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="img/icon/icon-medis-3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body p-5">
+                <h3 class="fw-bold">Improve Quality</h3>
+                <p class="card-text text-custom">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature end -->
+
+    <!-- Gallery start -->
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <header class="my-5">
+          <h4 class="fw-normal">Gallery</h4>
+          <h3 class="fw-bold fs-1">Photo of Our Clinic</h3>
+        </header>
+        <div class="row mt-5">
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-1.png" width="100%" alt="gallery-1" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-2.png" width="100%" alt="gallery-2" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-3.png" width="100%" alt="gallery-3" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-4.png" width="100%" alt="gallery-4" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-5.png" width="100%" alt="gallery-5" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-6.png" width="100%" alt="gallery-6" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-7.png" width="100%" alt="gallery-7" />
+          </div>
+          <div class="col-md-3 col-sm-4 col-6 mb-4">
+            <img src="img/image-8.png" width="100%" alt="gallery-8" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery end -->
+
+    <!-- Services start -->
+    <div class="services" id="services">
+      <div class="container">
+        <header class="my-5">
+          <h4 class="fw-normal">Services</h4>
+          <h3 class="fw-bold fs-1">Health Services</h3>
+        </header>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-4 shadow border-0">
+              <div class="row g-0">
+                <div
+                  class="col rounded-4 d-flex align-items-center justify-content-center card-left"
+                >
+                  <img
+                    src="img/icon/icon-healt-checkup.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                    width="80%"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h5 class="card-title fw-bold fs-4">
+                      Diagnosis & Treatment
+                    </h5>
+                    <p class="card-text text-custom">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the
+                    </p>
+                    <p class="card-text">
+                      <a href="#" class="ext-muted text-decoration-none"
+                        >Read More --></a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-4 shadow border-0">
+              <div class="row g-0">
+                <div
+                  class="col rounded-4 d-flex align-items-center justify-content-center card-left"
+                >
+                  <img
+                    src="img/icon/icon-ambulance.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                    width="80%"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h5 class="card-title fw-bold fs-4">Emergency Service</h5>
+                    <p class="card-text text-custom">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the
+                    </p>
+                    <p class="card-text">
+                      <a href="#" class="ext-muted text-decoration-none"
+                        >Read More --></a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-4 shadow border-0">
+              <div class="row g-0">
+                <div
+                  class="col rounded-4 d-flex align-items-center justify-content-center card-left"
+                >
+                  <img
+                    src="img/icon/icon-insomnia.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                    width="80%"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h5 class="card-title fw-bold fs-4">Rehabilitation</h5>
+                    <p class="card-text text-custom">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the
+                    </p>
+                    <p class="card-text">
+                      <a href="#" class="ext-muted text-decoration-none"
+                        >Read More --></a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-4 shadow border-0">
+              <div class="row g-0">
+                <div
+                  class="col rounded-4 d-flex align-items-center justify-content-center card-left"
+                >
+                  <img
+                    src="img/icon/icon-save-the-children.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                    width="80%"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h5 class="card-title fw-bold fs-4">Child Health</h5>
+                    <p class="card-text text-custom">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the
+                    </p>
+                    <p class="card-text">
+                      <a href="#" class="ext-muted text-decoration-none"
+                        >Read More --></a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services end -->
+
+    <!-- Info start -->
+    <div class="info">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold">
+              Trust your health to <br />
+              the experts
+            </h2>
+            <p class="text-custom">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="col-md-6 img-doctor">
+            <img
+              src="img/img-info.png"
+              alt=""
+              width="100%"
+              style="position: relative; bottom: 0; z-index: 999"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="background-info position-relative" style="bottom: 0">
+        <div class="container">
+          <div
+            class="row d-flex position-relative align-items-center"
+            style="margin-bottom: -180px; z-index: 99"
+          >
+            <div class="col-2 text-white">
+              <h3 class="fw-bold fs-1">1200+</h3>
+              <p class="">Patient</p>
+            </div>
+            <div class="col-2 text-white">
+              <h3 class="fw-bold fs-1">24/7</h3>
+              <p class="">Services</p>
+            </div>
+            <div class="col-2 text-white">
+              <h3 class="fw-bold fs-1">150+</h3>
+              <p class="">Fasility</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/background-info.png" alt="" width="100%" />
+      </div>
+    </div>
+    <!-- Info end -->
+
+    <!-- Our team start -->
+    <div class="our-team">
+      <div class="container">
+        <header class="my-5">
+          <h4 class="fw-normal">Our Team</h4>
+          <h3 class="fw-bold fs-1">Medical Team</h3>
+        </header>
+        <div class="row slide">
+          <div class="col-md-3 col-sm-4 mx-2 mb-3">
+            <div class="card rounded-4 border-0 shadow">
+              <div class="card-bg-top rounded-4">
+                <img
+                  src="/img/img-doctor-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Dr. Carlos Sanchez</h5>
+                <p class="card-text fs-6">Radiologist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 mx-2 mb-3">
+            <div class="card rounded-4 border-0 shadow">
+              <div class="card-bg-top rounded-4">
+                <img
+                  src="/img/img-doctor-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Dr. Sophia Anderson</h5>
+                <p class="card-text fs-6">Internal Medicine Specialist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 mx-2 mb-3">
+            <div class="card rounded-4 border-0 shadow">
+              <div class="card-bg-top rounded-4">
+                <img
+                  src="/img/img-doctor-3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Dr. Malik Ahmed</h5>
+                <p class="card-text fs-6">Orthopedic Surgeon</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 mx-2 mb-3">
+            <div class="card rounded-4 border-0 shadow">
+              <div class="card-bg-top rounded-4">
+                <img
+                  src="/img/img-doctor-4.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Dr. Helen Gawande</h5>
+                <p class="card-text fs-6">Radiation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 mb-3">
+            <div class="card rounded-4 border-0 shadow">
+              <div class="card-bg-top rounded-4">
+                <img
+                  src="/img/img-doctor-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Dr. Sophia Anderson</h5>
+                <p class="card-text fs-6">Internal Medicine Specialist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our team end -->
+
+    <!-- Founder start -->
+    <div class="founder">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/elipse-founder.png"
+              alt=""
+              class="position-absolute"
+              style="z-index: -99; margin: -40px"
+            />
+            <img src="img/img-founder.png" alt="" width="100%" />
+          </div>
+          <div class="col-md-6">
+            <header>
+              <h4 class="fw-normal">Founder</h4>
+            </header>
+            <q
+              ><h2 class="fw-bold">
+                “Organized medical service offering diagnostic, therapeutic, or
+                preventive outpatient services”
+              </h2></q
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Founder end -->
+
+    <!-- Location start -->
+    <div class="location">
+      <div class="container">
+        <header class="text-center">
+          <h4 class="fw-normal">Location</h4>
+          <h3 class="fw-bold fs-1">Our Location</h3>
+        </header>
+        <div class="row mt-5">
+          <div class="col">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.58519193568!2d-0.26640418831709395!3d51.52852620231104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20Britania%20Raya!5e0!3m2!1sid!2sid!4v1685765640440!5m2!1sid!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Location end -->
+
+    <!-- Contact start -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <header class="text-center">
+          <h4 class="fw-normal">Contact</h4>
+          <h3 class="fw-bold fs-1">Our Contact</h3>
+        </header>
+        <div class="row mt-5 d-flex align-items-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name=""
+                  class="form-control p-3"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Type your message here..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-custom-second px-5 py-2">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <img src="img/img-contact.png" width="100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="text-white fw-bold">Medi<span>Care</span></h3>
+            <p class="text-white fw-light mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              beatae dolorem dignissimos quisquam eos corporis perferendis
+              tempora necessitatibus. Eum, natus.
+            </p>
+          </div>
+          <div class="col-2 text-white quick-link">
+            <h4 class="fw-bold">Quick Link</h4>
+            <ul class="mt-5">
+              <li>
+                <a href="#main" class="text-decoration-none text-white fw-light"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="text-decoration-none text-white fw-light"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#feature"
+                  class="text-decoration-none text-white fw-light"
+                  >Feature</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  class="text-decoration-none text-white fw-light"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about-us"
+                  class="text-decoration-none text-white fw-light"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-decoration-none text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 text-white social-media">
+            <h4 class="fw-bold">Social Media</h4>
+            <ul class="mt-5">
+              <li>
+                <p class="fw-semibold fs-6">Contact</p>
+                <p class="fs-6 fw-light">+1 555-123-4567</p>
+              </li>
+              <li>
+                <p class="fw-semibold fs-6">Email</p>
+                <p class="fs-6 fw-light">medicare@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 text-white feature-footer">
+            <h4 class="fw-bold">Feature</h4>
+            <ul class="mt-5">
+              <li class="fw-light">Better Care</li>
+              <li class="fw-light">Communication</li>
+              <li class="fw-light">Improve Quality</li>
+            </ul>
+          </div>
+
+          <div class="copyright text-white text-center mt-5 fw-light">
+            <p class="fs-6">Copyright &copy; 2023. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".slide").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          dots: true,
+          infinite: true,
+          lazyLoad: "ondemand",
+
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>

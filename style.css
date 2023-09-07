@@ -1,0 +1,183 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* Utilities */
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-custom {
+  background: #dfae00;
+}
+
+.btn-custom:hover {
+  background: #c19700;
+}
+
+.btn-custom-second {
+  background-color: #013b71;
+  color: white;
+}
+
+.text-custom {
+  color: #6f6f6f;
+}
+
+h2 {
+  font-size: 40pt;
+}
+
+p {
+  line-height: 35px;
+  font-size: 14pt;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #013b71;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+  color: #dfae00;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #dbdbdb;
+  font-weight: lighter;
+}
+
+/* Jumbotron */
+.jumbotron {
+  width: 100%;
+  height: 91vh;
+  background-color: #013b71;
+  margin-bottom: 50px;
+}
+
+.jumbotron h1 {
+  font-size: 50pt;
+}
+
+.jumbotron h1 span {
+  color: #dfae00;
+}
+
+.jumbotron p {
+  line-height: 30px;
+}
+
+/* About us */
+.about-us {
+  margin: 200px 0;
+}
+
+/* Some Number */
+/* .some-number {
+  margin: 50px 0;
+} */
+
+/* Feature */
+.feature {
+  margin: 200px 0;
+  padding: 100px 0;
+  background-color: #013b712b;
+}
+
+.feature header {
+  margin-bottom: 100px;
+}
+
+.feature .card .card-top {
+  height: 300px;
+  background-color: #013b71;
+}
+
+.feature .card .card-top img {
+  width: 250px;
+}
+
+/* Gallery */
+.gallery {
+  margin: 200px 0;
+}
+
+/* Services */
+
+.services .card .card-left {
+  /* max-width:0px; */
+  background-color: #013b71;
+}
+
+.services .card-text a {
+  color: #013b71;
+}
+
+/* Info */
+.info {
+  margin: 200px 0;
+  width: 100%;
+}
+
+.info .img-doctor img {
+  margin-bottom: 72px;
+}
+
+.info .background-info {
+  margin-top: -246px;
+}
+
+/* Our team */
+.our-team {
+  margin: 200px 0;
+}
+.our-team .card .card-bg-top {
+  background-color: #013b71;
+}
+
+/* Founder  */
+.founder {
+  margin: 300px 0;
+}
+
+/* Contact */
+.contact {
+  margin: 200px 0;
+}
+
+/* Footer */
+footer {
+  padding: 50px;
+  background-color: #013b71;
+}
+
+footer h3 span {
+  color: #dfae00;
+}
+
+footer ul {
+  padding-left: 0;
+}
+footer ul li {
+  list-style: none;
+}
+
+footer .quick-link ul li {
+  line-height: 35px;
+}
+
+footer .social-media ul li {
+  margin: 10px 0;
+}
+
+footer .social-media ul li p {
+  line-height: 20px;
+}
+
+footer .feature-footer ul li {
+  line-height: 35px;
+}
